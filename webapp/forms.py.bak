@@ -1,0 +1,4 @@
+from models.Model import forms
+
+class Addform (models.form):
+	a = 
