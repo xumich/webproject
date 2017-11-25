@@ -1,0 +1,12 @@
+1. git config --global user.name "xumich"
+2. git config --global user.mail "1440174967@qq.com"  ***配置git账户
+3. mkdir repositoryName  ***注意本地仓库名要和git中建立的仓库名一样
+4. cd repositoryName
+5. git init 	***初始化本仓库
+6. touch README	   ***创建readme文件
+7. git add README   ***将文件添加到上传队列
+8. git commit -m "提交说明"  ***缓存提交，引号中的是对本次提交的描述，必须填写，不能为空
+9. git remote add origin https://github.com/xumich/repositoryName.git
+10. git pull origin master --allow-unrelated-histories
+11. git push origin master  	***将README文件上传到版本库
+ 
